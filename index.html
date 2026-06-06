@@ -334,10 +334,10 @@
       <p class="sb">Or call now: <a href="tel:+18449526435" style="color:var(--navy);font-weight:700">(844) 952-6435</a></p>
       <form id="leadForm" novalidate>
         <div class="frow">
-          <div class="field"><label for="nm">Name</label><input id="nm" name="name" type="text" required></div>
-          <div class="field"><label for="em">Email</label><input id="em" name="email" type="email" required></div>
+          <div class="field"><label for="nm">Name</label><input id="nm" name="name" type="text" required autocomplete="name" aria-required="true"></div>
+          <div class="field"><label for="em">Email</label><input id="em" name="email" type="email" required autocomplete="email" aria-required="true"></div>
         </div>
-        <div class="field"><label for="ph">Phone</label><input id="ph" name="phone" type="tel"></div>
+        <div class="field"><label for="ph">Phone</label><input id="ph" name="phone" type="tel" autocomplete="tel"></div>
         <div class="field"><label for="msg">Message</label><textarea id="msg" name="message" rows="3" maxlength="350"></textarea><div class="cc"><span id="cc">0</span>/350</div></div>
         <button type="submit" class="btn">Request Help</button>
         <p class="fnote">A real person reviews every request. We will reach out to help connect you.</p>
